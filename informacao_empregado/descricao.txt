@@ -1,0 +1,4 @@
+5. informação do empregado
+
+Crie um programa com duas classes, Employee e EmployeeManager. A classe Employee deve representar um funcionário com atributos como nome, ID e salário, juntamente com métodos para exibir informações do funcionário. A classe EmployeeManager deve demonstrar o uso desses métodos criando objetos Employee e exibindo suas informações.
+

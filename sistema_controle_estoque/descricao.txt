@@ -1,0 +1,11 @@
+Projeto: Sistema de Controle de Estoque
+Neste projeto, criaremos um sistema básico para controlar o estoque de produtos em uma loja. Vamos dividir o projeto em pacotes para organizar melhor o código.
+Passo 1: Definir a Estrutura do Projeto
+Pacote model: Este pacote conterá a classe Product, que representa um produto em estoque. 
+Pacote service: Este pacote conterá a classe StockService, que será responsável por fornecer métodos para adicionar, remover e atualizar produtos no estoque.
+Pacote ui (User Interface): Este pacote conterá a classe StockUI, que será responsável por interagir com o usuário, exibindo menus, recebendo entradas e chamando os métodos apropriados do StockService.
+Passo 2: Implementar a Classe Product. Esta classe deve conter os seguintes atributos: name, price, quantity. Implemente os getters e setter para encapsulamento dos atributos da classe.
+Passo 3: Implementar a Classe StockService.Utilize um ArrayList para armazenar os produtos. Além disso, essa classe deve conter os seguintes métodos: addProduct, addProduct e updatePrice.
+Passo 4: Implementar a Classe StockUI.
+Neste projeto, o StockService é responsável por manipular as operações relacionadas ao estoque, como adicionar produtos, remover produtos e atualizar preços. A classe StockUI interage com o usuário, permitindo que ele execute essas operações. O encapsulamento é aplicado ao manter os atributos da classe Product privados e fornecer métodos públicos para acessá-los e modificá-los. Os modificadores de acesso são utilizados para garantir a visibilidade adequada dos membros das classes em diferentes pacotes.
+
